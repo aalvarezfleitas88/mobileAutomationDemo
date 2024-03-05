@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">33.944s</div>
+<div class="counter">25.792s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,67 +61,16 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
+<a href="#tab1">Standard output</a>
 </li>
 <li>
 <a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="Example #1.1"></a>
-<h3 class="failures">Example #1.1</h3>
-<span class="code">
-<pre>org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4E3K38M', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: .viewlayer.launcher.Launche..., appPackage: com.hdw.james.rider, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {appActivity: .viewlayer.launcher.Launche..., appPackage: com.hdw.james.rider, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: pixel_5, disableWindowAnimation: true, platformName: android, platformVersion: 12, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: unknown, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, disableWindowAnimation: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 145, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1927, left: 0, top: 145, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 8a2f68d1-e711-4a3c-8e20-6d12a4842535
-	at java.base@11.0.18/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base@11.0.18/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base@11.0.18/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base@11.0.18/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at app//io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at app//io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at app//io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at app//io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at app//io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at app//io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at app//io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at app//org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
-	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
-	at app//io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:40)
-	at app//io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
-	at app//io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
-	at app//org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at app//org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at app//org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at app//org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at app//org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at app//org.mobile.Helpers.Helper.waitVisibleElement(Helper.java:22)
-	at app//org.mobile.Services.GetStartedService.GetStartedService.enterYourPhoneNumberScreenWillBeDisplayed(GetStartedService.java:21)
-	at app//org.mobile.Steps.GetStarted.GetStartedSteps.enterYourPhoneNumberScreenWillBeDisplayed(GetStartedSteps.java:20)
-	at ✽.'Enter your phone number' screen is displayed(classpath:Features/GetStarted/GetStarted.feature:7)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -132,17 +81,42 @@ Session ID: 8a2f68d1-e711-4a3c-8e20-6d12a4842535
 </tr>
 </thead>
 <tr>
-<td class="failures">Example #1.1</td>
-<td class="failures">33.944s</td>
-<td class="failures">failed</td>
+<td class="success">Example #1.1</td>
+<td class="success">25.792s</td>
+<td class="success">passed</td>
 </tr>
 </table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+@A_ALVAREZ
+Scenario Outline: Validate 'Enter the 6 digit code' screen              ?[90m# features/GetStarted/GetStarted.feature:15?[0m
+  ?[32mGiven ?[0m?[32mUser clicks on 'Get started' button?[0m                             ?[90m# org.mobile.Steps.GetStarted.GetStartedSteps.clickOnGetStarted()?[0m
+The item did not appear or became stalked. Retrying...
+  ?[32mAnd ?[0m?[32m'Enter your phone number' screen is displayed?[0m                     ?[90m# org.mobile.Steps.GetStarted.GetStartedSteps.enterYourPhoneNumberScreenWillBeDisplayed()?[0m
+  ?[32m* ?[0m?[32mSelect ?[0m?[32m?[1m&quot;Uruguay&quot;?[0m?[32m in the list of numerical characteristics?[0m           ?[90m# org.mobile.Steps.GetStarted.GetStartedSteps.selectCountryNumericalCharacteristics(java.lang.String)?[0m
+  ?[32m* ?[0m?[32mEnter a valid cell phone number for the selected country ?[0m?[32m?[1m&quot;99100016&quot;?[0m ?[90m# org.mobile.Steps.GetStarted.GetStartedSteps.enterValirCellPhoneForSelectedCountry(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mUser click on the 'Continue' button?[0m                              ?[90m# org.mobile.Steps.GetStarted.GetStartedSteps.clickOnContinueBtn()?[0m
+  ?[32mThen ?[0m?[32m'Enter the 6 digit code' screen is displayed?[0m                     ?[90m# org.mobile.Steps.GetStarted.GetStartedSteps.enterThe6DigitCodeScreenWillBeDisplayed()?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+6 Steps (?[32m6 passed?[0m)
+0m25.858s
+
+
+</pre>
+</span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Mar 05, 2024 11:02:53 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+<pre>Mar 05, 2024 1:34:11 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Mar 05, 2024 1:34:21 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
 </pre>
 </span>
 </div>
@@ -154,7 +128,7 @@ INFO: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.2.1</a> at Mar 5, 2024, 11:02:57 AM</p>
+<a href="http://www.gradle.org">Gradle 8.2.1</a> at Mar 5, 2024, 1:34:25 PM</p>
 </div>
 </div>
 </body>
