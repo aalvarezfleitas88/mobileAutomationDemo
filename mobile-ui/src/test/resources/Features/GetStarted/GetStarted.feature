@@ -1,6 +1,6 @@
 Feature: Get Started
 
-  @A_ALVAREZ
+  @SMOKE
   Scenario Outline: Validate 'Enter the 6 digit code' screen
 
     Given User clicks on 'Get started' button
