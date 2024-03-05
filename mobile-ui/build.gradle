@@ -1,0 +1,54 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'maven-publish'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+java {
+    withSourcesJar()
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //JUnit
+    implementation 'org.junit.platform:junit-platform-suite:1.9.2'
+    implementation 'org.junit.platform:junit-platform-suite-api:1.9.2'
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+
+    //Cucumber
+    implementation 'io.cucumber:cucumber-java:7.13.0'
+    implementation 'io.cucumber:cucumber-junit-platform-engine:7.13.0'
+
+    implementation group: 'io.appium', name: 'java-client', version: '7.3.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty("cucumber.junit-platform.naming-strategy", "long")
+    ignoreFailures = true
+    systemProperties(project.gradle.startParameter.systemPropertiesArgs)
+}
+
+tasks.withType(Test).configureEach {
+    systemProperties = [
+            platform : System.getProperty('platform', "${plaform_name}"),
+            osversion: System.getProperty('osversion', "${platform_version}"),
+            tags     : System.getProperty("cucumber.filter.tags", System.getProperty("tags")),
+            runMode  : System.getProperty('runMode', "${run_mode}")
+    ]
+}

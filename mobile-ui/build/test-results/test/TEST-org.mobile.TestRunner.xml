@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mobile.TestRunner" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-03-05T14:02:23" hostname="DESKTOP-4E3K38M" time="33.944">
+  <properties/>
+  <testcase name="Example #1.1" classname="org.mobile.TestRunner" time="33.944">
+    <failure message="org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-4E3K38M', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: .viewlayer.launcher.Launche..., appPackage: com.hdw.james.rider, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {appActivity: .viewlayer.launcher.Launche..., appPackage: com.hdw.james.rider, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: pixel_5, disableWindowAnimation: true, platformName: android, platformVersion: 12, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: unknown, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, disableWindowAnimation: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 145, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1927, left: 0, top: 145, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 8a2f68d1-e711-4a3c-8e20-6d12a4842535" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4E3K38M', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .viewlayer.launcher.Launche..., appPackage: com.hdw.james.rider, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {appActivity: .viewlayer.launcher.Launche..., appPackage: com.hdw.james.rider, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: pixel_5, disableWindowAnimation: true, platformName: android, platformVersion: 12, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: unknown, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, disableWindowAnimation: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 145, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1927, left: 0, top: 145, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8a2f68d1-e711-4a3c-8e20-6d12a4842535
+	at java.base@11.0.18/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@11.0.18/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at app//io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at app//io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at app//io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at app//io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at app//io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at app//io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at app//io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at app//org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:40)
+	at app//io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at app//io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at app//org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at app//org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at app//org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at app//org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at app//org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at app//org.mobile.Helpers.Helper.waitVisibleElement(Helper.java:22)
+	at app//org.mobile.Services.GetStartedService.GetStartedService.enterYourPhoneNumberScreenWillBeDisplayed(GetStartedService.java:21)
+	at app//org.mobile.Steps.GetStarted.GetStartedSteps.enterYourPhoneNumberScreenWillBeDisplayed(GetStartedSteps.java:20)
+	at ✽.'Enter your phone number' screen is displayed(classpath:Features/GetStarted/GetStarted.feature:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2024 11:02:53 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
