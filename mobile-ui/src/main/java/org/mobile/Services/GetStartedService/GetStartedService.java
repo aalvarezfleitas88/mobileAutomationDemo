@@ -2,6 +2,7 @@ package org.mobile.Services.GetStartedService;
 
 import org.core.actions.Actions;
 import org.mobile.Helpers.Helper;
+import org.mobile.Pages.Common.CommonPage;
 import org.mobile.Pages.GetStartedPage.GetStartedPage;
 
 import static org.mobile.Constants.Constants.GetStartedFeature.*;
@@ -10,6 +11,7 @@ public class GetStartedService implements Actions {
 
     GetStartedPage getStartedPage = new GetStartedPage();
     Helper helper = new Helper();
+    CommonPage commonPage = new CommonPage();
 
     public void clickOnGetStarted() {
         assertVisible(getStartedPage.btnGetStarted);
@@ -47,5 +49,31 @@ public class GetStartedService implements Actions {
         assertVisible(getStartedPage.txtEnterTheSixDigitCode);
         assertVisible(getStartedPage.txtDescEnterYourPhoneNumber);
         assertDisable(getStartedPage.btnContinue);
+    }
+
+    public void termsOfServiceLinkIsDisplayed() {
+        assertVisible(getStartedPage.lnkTermsOfService);
+    }
+
+    public void clickOnTermsOfServiceLink() {
+        helper.screenTapingUsingCoordinates(898, 1068);
+    }
+
+    public void termsOfServiceScreenIsDisplayed() {
+        Helper.waitElementWithAttempt(commonPage.urlFieldChrome, 3,1);
+        assertText(commonPage.urlFieldChrome, TXT_URL_TERMS_OF_SERVICE);
+    }
+
+    public void privacyNoticeLinkIsDisplayed() {
+        assertVisible(getStartedPage.lnkPrivacyNotice);
+    }
+
+    public void clickOnPrivacyNoticeLink() {
+        helper.screenTapingUsingCoordinates(732, 1144);
+    }
+
+    public void privacyNoticeScreenIsDisplayed() {
+        Helper.waitElementWithAttempt(commonPage.urlFieldChrome, 3,1);
+        assertText(commonPage.urlFieldChrome, TXT_URL_PRIVACY_NOTICE);
     }
 }

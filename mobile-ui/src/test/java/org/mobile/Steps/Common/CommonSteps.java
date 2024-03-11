@@ -29,4 +29,9 @@ public class CommonSteps {
     public void impStep4(String text) {
         commonService.logicStep4(text);
     }
+
+    @When("User performs a 'Back' from the application")
+    public void performBackFromTheApplication() {
+        commonService.performBackFromTheApplication();
+    }
 }

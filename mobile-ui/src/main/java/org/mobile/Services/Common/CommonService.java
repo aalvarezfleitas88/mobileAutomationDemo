@@ -24,4 +24,8 @@ public class CommonService implements Actions {
     public void logicStep4(String text) {
         assertText(commonPage.btnContinueTo, text);
     }
+
+    public void performBackFromTheApplication() {
+        backAndroidApp();
+    }
 }

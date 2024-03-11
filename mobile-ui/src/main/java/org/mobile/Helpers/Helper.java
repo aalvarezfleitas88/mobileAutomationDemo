@@ -2,8 +2,12 @@ package org.mobile.Helpers;
 
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.offset.PointOption;
 import org.core.pages.BasePage;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.Dimension;
+
+import static io.appium.java_client.touch.offset.PointOption.point;
 
 public class Helper extends BasePage {
 //The objective of this class is to develop functionalities
@@ -34,5 +38,20 @@ public class Helper extends BasePage {
         }
         // If the maximum number of attempts is reached and the element still does not appear, throw an exception.
         throw new org.openqa.selenium.TimeoutException("The element did not appear after " + attemptsMaximums + " attempts.");
+    }
+
+    public void screenTapingUsingCoordinates(int widthATappear, int heightATappear) {
+        Dimension dimension_screen = driver.manage().window().getSize();
+        int height = dimension_screen.getHeight();
+        int width = dimension_screen.getWidth();
+
+        if(height >= heightATappear && width >= widthATappear){
+            tapOnCoordinates(point(widthATappear, heightATappear));
+        }
+    }
+
+    public void tapOnCoordinates(PointOption pointOption) {
+        TouchAction touchAction = new TouchAction(driver);
+        touchAction.tap(pointOption).perform();
     }
 }

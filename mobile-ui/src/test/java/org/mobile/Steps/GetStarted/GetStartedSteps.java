@@ -39,4 +39,34 @@ public class GetStartedSteps {
     public void enterThe6DigitCodeScreenWillBeDisplayed() {
         getStartedService.enterThe6DigitCodeScreenWillBeDisplayed();
     }
+
+    @And("'Privacy Notice' link is displayed")
+    public void privacyNoticeLinkIsDisplayed() {
+        getStartedService.privacyNoticeLinkIsDisplayed();
+    }
+
+    @When("User click on the 'Privacy Notice' link")
+    public void clickOnPrivacyNoticeLink() {
+        getStartedService.clickOnPrivacyNoticeLink();
+    }
+
+    @Then("'Privacy Notice' screen is displayed")
+    public void privacyNoticeScreenIsDisplayed() {
+        getStartedService.privacyNoticeScreenIsDisplayed();
+    }
+
+    @And("'Terms of Service' link is displayed")
+    public void termsOfServiceLinkIsDisplayed() {
+        getStartedService.termsOfServiceLinkIsDisplayed();
+    }
+
+    @When("User click on the 'Terms of Service' link")
+    public void clickOnTermsOfServiceLink() {
+        getStartedService.clickOnTermsOfServiceLink();
+    }
+
+    @Then("'Terms of Service' screen is displayed")
+    public void termsOfServiceScreenIsDisplayed() {
+        getStartedService.termsOfServiceScreenIsDisplayed();
+    }
 }

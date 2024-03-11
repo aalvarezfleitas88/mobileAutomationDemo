@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4887f33-89c8-4972-a9e2-4cff82684825" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobile/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobile/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/core/actions/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/core/actions/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Helpers/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Helpers/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Pages/Common/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Pages/Common/CommonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Pages/GetStartedPage/GetStartedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Pages/GetStartedPage/GetStartedPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Services/Common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Services/Common/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Services/GetStartedService/GetStartedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Services/GetStartedService/GetStartedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobile/Steps/Common/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobile/Steps/Common/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobile/Steps/GetStarted/GetStartedSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobile/Steps/GetStarted/GetStartedSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-reports/cucumber.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,32 +65,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Alexis/Desktop/MobileAutomationDemo/mobileAutomationDemo/mobile-ui",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alexis/Desktop/MobileAutomationDemo/mobileAutomationDemo/mobile-ui&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alexis\Desktop\Framework\mobile-ui\src\core\mobile\actions" />
       <recent name="C:\Users\Alexis\Desktop\Framework\mobile-ui\src\core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexis\Desktop\MobileAutomationDemo\mobileAutomationDemo\mobile-ui\src\test\resources\Features" />
       <recent name="C:\Users\Alexis\Desktop\Framework\mobile-ui\src\test\resources\Features" />
       <recent name="C:\Users\Alexis\Desktop\Framework\mobile-ui\src\test\resources\Features\rgergdrg" />
       <recent name="C:\Users\Alexis\Desktop\Framework\mobile-ui\src\test\resources\Features\GetStarted\aeaef" />
       <recent name="C:\Users\Alexis\Desktop\Framework\mobile-ui\src\test\resources\features\MyFeature002" />
-      <recent name="C:\Users\Alexis\Desktop\Framework\mobile-ui\src\test\resources\features\MyFeature00" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Validate 'Enter the 6 digit code' screen">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Validate 'Privacy Notice' redirect page">
     <configuration name="Feature: GetStarted" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" />
@@ -100,15 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Validate 'Enter the 6 digit code' screen" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Validate 'Back' functionality from 'Enter the 6 digit code' screen" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" />
       <option name="GLUE" value="org.mobile.Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="mobile-ui.test" />
-      <option name="NAME_FILTER" value="^Validate \'Enter the 6 digit code\' screen$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate \'Enter the 6 digit code\' screen$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validate 'Enter the 6 digit code' screen" />
+      <option name="NAME_FILTER" value="^Validate \'Back\' functionality from \'Enter the 6 digit code\' screen$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate \'Back\' functionality from \'Enter the 6 digit code\' screen$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate 'Back' functionality from 'Enter the 6 digit code' screen" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,51 +130,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.mobile.TestRunner&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="Scenario: Validate 'Privacy Notice' redirect page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" />
+      <option name="GLUE" value="org.mobile.Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mobile-ui.test" />
+      <option name="NAME_FILTER" value="^Validate \'Privacy Notice\' redirect page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate \'Privacy Notice\' redirect page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate 'Privacy Notice' redirect page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="mobile-ui [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="Scenario: Validate 'Terms of Service' page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" />
+      <option name="GLUE" value="org.mobile.Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mobile-ui.test" />
+      <option name="NAME_FILTER" value="^Validate \'Terms of Service\' page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate \'Terms of Service\' page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate 'Terms of Service' page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validate 'Terms of Service' redirect page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" />
+      <option name="GLUE" value="org.mobile.Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="mobile-ui.test" />
+      <option name="NAME_FILTER" value="^Validate \'Terms of Service\' redirect page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate \'Terms of Service\' redirect page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate 'Terms of Service' redirect page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="awana-mobile" />
@@ -181,10 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Validate 'Enter the 6 digit code' screen" />
-        <item itemvalue="Gradle.mobile-ui [build]" />
-        <item itemvalue="Gradle.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Validate 'Privacy Notice' redirect page" />
+        <item itemvalue="Cucumber Java.Scenario: Validate 'Terms of Service' redirect page" />
         <item itemvalue="Cucumber Java.Feature: GetStarted" />
+        <item itemvalue="Cucumber Java.Scenario: Validate 'Terms of Service' page" />
+        <item itemvalue="Cucumber Java.Scenario: Validate 'Back' functionality from 'Enter the 6 digit code' screen" />
       </list>
     </recent_temporary>
   </component>

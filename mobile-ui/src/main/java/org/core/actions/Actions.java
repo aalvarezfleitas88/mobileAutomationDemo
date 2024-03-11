@@ -35,15 +35,6 @@ public interface Actions {
         }
     }
 
-    default void tapOnCoordinates(PointOption pointOption){
-        try {
-            TouchAction touchAction = new TouchAction(BaseDriver.getDriver());
-            touchAction.tap(pointOption).perform();
-        } catch (Exception e) {
-            Assertions.fail(e.getMessage(), e);
-        }
-    }
-
     default void assertVisible(MobileElement mobileElement) {
         boolean successfullCase=false;
 
@@ -118,6 +109,14 @@ public interface Actions {
         try {
             mobileElement.clear();
         } catch (Exception e){
+            Assertions.fail(e.getMessage(), e);
+        }
+    }
+
+    default void backAndroidApp() {
+        try {
+            BaseDriver.getDriver().navigate().back();
+        } catch (Exception e) {
             Assertions.fail(e.getMessage(), e);
         }
     }

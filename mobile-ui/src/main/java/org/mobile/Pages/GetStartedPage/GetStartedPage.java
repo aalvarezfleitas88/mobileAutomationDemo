@@ -5,6 +5,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.core.pages.BasePage;
 
 public class GetStartedPage extends BasePage {
+
     /************************* BUTTONS *****************************/
     @AndroidFindBy(id = "com.hdw.james.rider:id/getStartedButton")
     public MobileElement btnGetStarted;
@@ -25,6 +26,13 @@ public class GetStartedPage extends BasePage {
 
     @AndroidFindBy(id = "com.hdw.james.rider:id/phoneNumberInputTitle")
     public MobileElement txtPhoneNumber;
+
+    /************************* LINKS *****************************/
+    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'Terms of Service')]")
+    public MobileElement lnkTermsOfService;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'Privacy')]")
+    public MobileElement lnkPrivacyNotice;
 
     /************************* INPUTS *****************************/
     @AndroidFindBy(id = "com.hdw.james.rider:id/input")
