@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4887f33-89c8-4972-a9e2-4cff82684825" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/core/actions/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/core/actions/Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Helpers/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Helpers/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Pages/Common/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Pages/Common/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Pages/GetStartedPage/GetStartedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Pages/GetStartedPage/GetStartedPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Services/Common/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Services/Common/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mobile/Services/GetStartedService/GetStartedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mobile/Services/GetStartedService/GetStartedService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobile/Steps/Common/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobile/Steps/Common/CommonSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mobile/Steps/GetStarted/GetStartedSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mobile/Steps/GetStarted/GetStartedSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/GetStarted/GetStarted.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber-reports/cucumber.json" afterDir="false" />
-    </list>
+    <list default="true" id="b4887f33-89c8-4972-a9e2-4cff82684825" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
